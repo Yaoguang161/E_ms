@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Asaki/CLionProjects/Employee management system/boss.h
+iostream
+-
+worker.h
+C:/Users/Asaki/CLionProjects/Employee management system/worker.h
+
+C:/Users/Asaki/CLionProjects/Employee management system/employee.h
+iostream
+-
+worker.h
+C:/Users/Asaki/CLionProjects/Employee management system/worker.h
+
+C:/Users/Asaki/CLionProjects/Employee management system/manager.h
+iostream
+-
+worker.h
+C:/Users/Asaki/CLionProjects/Employee management system/worker.h
+
+C:/Users/Asaki/CLionProjects/Employee management system/worker.h
+iostream
+-
+string
+-
+
+C:/Users/Asaki/CLionProjects/Employee management system/workerManager.cpp
+workerManager.h
+C:/Users/Asaki/CLionProjects/Employee management system/workerManager.h
+
+C:/Users/Asaki/CLionProjects/Employee management system/workerManager.h
+iostream
+-
+worker.h
+C:/Users/Asaki/CLionProjects/Employee management system/worker.h
+employee.h
+C:/Users/Asaki/CLionProjects/Employee management system/employee.h
+manager.h
+C:/Users/Asaki/CLionProjects/Employee management system/manager.h
+boss.h
+C:/Users/Asaki/CLionProjects/Employee management system/boss.h
+
